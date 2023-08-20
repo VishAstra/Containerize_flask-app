@@ -1,8 +1,15 @@
-**Flask Docker Application This repository contains a simple Flask application with Dockerfile to containerize it.**
+### Flask Docker Application This repository contains a simple Flask application with Dockerfile to containerize it.
 
-*Instructions Prerequisites Docker installed on your machine Docker Hub account (for image registry)* 
+### **Instructions** **
 
-1. Building Image Clone this repository
+*Prerequisites* 
+
+- *Docker installed on your machine*
+- *Docker Hub account (for image registry)*
+
+Building Image 
+
+1. Clone this repository
 
 Copy code
 
@@ -72,6 +79,4 @@ docker push /my-flask-app
 
  The image is now available publicly on Docker Hub.
 
-Deploying to Cloud Use Docker Hub integration in your cloud platform (AWS ECS, GCP Run etc) to deploy the containerized Flask app.
-
-This allows running the application at scale.
+***Deploying to Cloud Use Docker Hub integration in your cloud platform (AWS ECS, GCP Run etc) to deploy the containerized Flask app. This allows running the application at scale.***
