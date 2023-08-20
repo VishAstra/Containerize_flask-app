@@ -4,7 +4,7 @@
 
 *Prerequisites* 
 
-- *Docker installed on your machine*
+- Docker installed on your machine(scroll down to see the instruction to install docker 
 - *Docker Hub account (for image registry)*
 
 Building Image 
@@ -80,3 +80,65 @@ docker push /my-flask-app
  The image is now available publicly on Docker Hub.
 
 ***Deploying to Cloud Use Docker Hub integration in your cloud platform (AWS ECS, GCP Run etc) to deploy the containerized Flask app. This allows running the application at scale.***
+
+
+🔚--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Here are the steps to install Docker on some common operating systems, including Amazon Linux on AWS EC2:
+
+**Ubuntu/Debian**
+
+```
+Copy codesudo apt update
+sudo apt install docker.io
+
+```
+
+**CentOS/RHEL/Amazon Linux**
+
+```
+Copy codesudo yum update
+sudo yum install docker
+
+```
+
+**Fedora**
+
+```
+sudo dnf update
+sudo dnf install docker-ce
+
+```
+
+**MacOS**
+
+Download and install Docker Desktop from docker.com
+
+**Windows 10/11**
+
+Download and install Docker Desktop from docker.com
+
+**AWS EC2 Amazon Linux**
+
+```
+sudo yum update -y
+sudo yum install docker -y
+sudo service docker start
+
+```
+
+**Verify Installation**
+
+Check Docker version:
+
+```
+docker --version
+
+```
+
+Run a test container:
+
+
+```
+docker run hello-world
+
+```
