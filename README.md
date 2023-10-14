@@ -1,4 +1,5 @@
-### Flask Docker Application This repository contains a simple Flask application with Dockerfile to containerize it.
+### Flask Docker Application 
+###This repository contains a simple Flask application with Dockerfile to containerize it.
 
 ### **Instructions** **
 
@@ -88,7 +89,7 @@ Here are the steps to install Docker on some common operating systems, including
 **Ubuntu/Debian**
 
 ```
-Copy codesudo apt update
+sudo apt update
 sudo apt install docker.io
 
 ```
@@ -96,7 +97,7 @@ sudo apt install docker.io
 **CentOS/RHEL/Amazon Linux**
 
 ```
-Copy codesudo yum update
+sudo yum update
 sudo yum install docker
 
 ```
