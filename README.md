@@ -46,17 +46,17 @@ You should see the my-flask-app image listed.
 
 1. Running Container To run the Flask app container:
 
-Copy code
+
 
 ```bash
-docker run -p 8080:8080 my-flask-app The app will be available at [http://localhost:8080](http://localhost:8080/)
+docker run -p 8080:8080 my-flask-app The app will be available at [http://localhost:8080]
 ```
 
 Pushing Image to Docker Hub To share the image on Docker Hub:
 
 6.Log into Docker CLI
 
-Copy code
+
 
 ```bash
 docker login 
@@ -64,7 +64,7 @@ docker login
 
 7. Tag image with Docker Hub username
 
-Copy code
+
 
 ```bash
 docker tag my-flask-app /my-flask-app 
@@ -72,7 +72,7 @@ docker tag my-flask-app /my-flask-app
 
 8. Push image
 
-Copy code
+
 
 ```bash
 docker push /my-flask-app
