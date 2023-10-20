@@ -12,7 +12,7 @@ Building Image
 
 1. Clone this repository
 
-Copy code
+
 
 ```bash
 git clone https://github.com/VishAstra/flask-hello-app.git 
@@ -20,7 +20,7 @@ git clone https://github.com/VishAstra/flask-hello-app.git 
 
 2. Navigate to the repository directory
 
-Copy code
+
 
 ```bash
 cd flask-hello-app 
